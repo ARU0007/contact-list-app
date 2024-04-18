@@ -12,4 +12,14 @@ public class Contact {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
