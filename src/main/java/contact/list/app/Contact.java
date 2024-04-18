@@ -1,6 +1,6 @@
 package contact.list.app;
 
-public class Contact {
+public sealed class Contact permits Faculty, Student {
     long id;
     String name;
     long phoneNumber;
