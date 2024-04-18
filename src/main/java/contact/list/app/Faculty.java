@@ -1,6 +1,6 @@
 package contact.list.app;
 
-public class Faculty extends Contact {
+public final class Faculty extends Contact {
     String departmentName;
     String designation;
 
